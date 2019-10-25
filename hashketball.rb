@@ -5,8 +5,8 @@ def game_hash
 the_game = {:home => {
       :team_name => {},
       :colors => {}, 
-      :players => {
-        [{:player_name => ""},
+      :players => [
+         {:player_name => ""},
          {:number => ""},
          {:shoe => ""},
          {:points => ""},
@@ -14,12 +14,12 @@ the_game = {:home => {
          {:assists => ""},
          {:steals => ""},
          {:blocks => ""},
-         {:slam_dunks =>""}]}}, 
+         {:slam_dunks =>""}]}, 
     {:away => {
       :team_name => {}, 
       :colors => {}, 
-      :players => {
-        [{:player_name => ""},
+      :players => [
+         {:player_name => ""},
          {:number => ""},
          {:shoe => ""},
          {:points => ""},
