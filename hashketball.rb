@@ -150,7 +150,7 @@ def player_numbers(team)
   numbers_array = []
   game_hash.each do |team_side, collect|
     if collect[:team_name] == team
-      binding.pry
+      #binding.pry
       collect[:players].each do |player|
         numbers_array << player[:number]
       end
