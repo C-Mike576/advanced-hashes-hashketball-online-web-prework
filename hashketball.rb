@@ -160,5 +160,14 @@ def player_numbers(team)
 end
 
 def player_stats(name)
-  
+  game_hash.each do |team_side, collect|
+    collect[:players].each do |player|
+      player.each do |key, value|
+        #binding.pry
+        if value == name
+          return player
+        end
+      end
+    end
+  end
 end
