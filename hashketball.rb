@@ -163,7 +163,7 @@ def player_stats(name)
   game_hash.each do |team_side, collect|
     collect[:players].each do |player|
       if player[:player_name] == name
-        binding.pry
+        #binding.pry
           return player.delete(:player_name)
       end
     end
