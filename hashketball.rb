@@ -191,7 +191,22 @@ def big_shoe_rebounds
 end
 
 def most_points_scored
-  
+  big_score = 0 
+  game_hash.each do |team_side, collect|
+    collect[:players].each do |player|
+      if big_score < player[:points]
+        big_shoe = player[:points]
+      end
+    end
+  end
+  game_hash.each do |team_side, collect|
+    collect[:players].each do |player|
+      if big_score == player[:points]
+        return player[:player_name]
+      end
+    end
+  end
+end
 
 
 
