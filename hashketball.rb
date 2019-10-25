@@ -147,6 +147,12 @@ def team_names
 end
 
 def player_numbers(team)
-  
+  numbers_array = []
+  game_hash.each do |team_side, collect|
+    collect[:players].each do |player|
+      binding.pry
+    end
+  end
+  numbers_array
 end
 
