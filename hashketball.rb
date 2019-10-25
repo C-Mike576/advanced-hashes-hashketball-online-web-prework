@@ -164,7 +164,7 @@ def player_stats(name)
     collect[:players].each do |player|
       if player[:player_name] == name
         binding.pry
-          return player
+          return player.d
       end
     end
   end
