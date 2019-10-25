@@ -105,8 +105,10 @@ game_hash
 end
 def num_points_scored(name)
   game_hash.each do |team, collect|
-    collect[:players].each do |each_name, value|
+    collect[:players].each do |player|
+      player.each do |key, value|
       binding.pry
+      end
     end
   end
 end
