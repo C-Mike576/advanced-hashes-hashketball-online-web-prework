@@ -19,25 +19,17 @@ the_game = {:home => {
       :team_name => {}, 
       :colors => {}, 
       :players => {
-        
-      }}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        [{:player_name => ""},
+         {:number => ""},
+         {:shoe => ""},
+         {:points => ""},
+         {:rebounds => ""},
+         {:assists => ""},
+         {:steals => ""},
+         {:blocks => ""},
+         {:slam_dunks =>""}]}}}}
+the_game
+binding.pry
 end
 
 
