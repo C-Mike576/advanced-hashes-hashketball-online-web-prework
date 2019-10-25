@@ -31,7 +31,9 @@ the_game = {
       {:slam_dunks =>""}]}}
 the_game
 end
-
+def num_points_scored
+  game_hash
+end
 
 
 
