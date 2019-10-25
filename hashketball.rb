@@ -109,7 +109,7 @@ def num_points_scored(name)
       player.each do |key, value|
         #binding.pry
         if value == name
-          return player[:points].to_i
+          return player[:points]
         end
       end
     end
