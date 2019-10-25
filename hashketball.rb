@@ -140,8 +140,10 @@ end
 
 def team_names
   names_array = []
-  game_hash.each do |team_side, collect
-    
+  game_hash.each do |team_side, collect|
+    names_array << collect[:team_name]
+  end
+  names_array
 end
 
 
