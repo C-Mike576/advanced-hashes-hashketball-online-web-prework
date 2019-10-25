@@ -160,5 +160,10 @@ def player_numbers(team)
 end
 
 def player_stats(name)
-  
+  game_hash.each do |team_side, collect|
+    #binding.pry
+    if collect[:team_name] == team
+      return collect[:colors]
+    end
+  end
 end
