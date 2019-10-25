@@ -173,10 +173,9 @@ end
 def big_shoe_rebounds
   #retuns the number of rebounds of the player with the biggest
   #shoe size
-  big shoe = 0 
+  big_shoe = 0 
   game_hash.each do |team_side, collect|
     collect[:players].each do |player|
-      binding.pry
       if big_shoe < player[:shoe]
         big_shoe = player[:shoe]
       end
