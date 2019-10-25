@@ -28,8 +28,8 @@ the_game = {:home => {
          {:steals => ""},
          {:blocks => ""},
          {:slam_dunks =>""}]}}}}
-the_game
 binding.pry
+the_game
 end
 
 
