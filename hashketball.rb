@@ -133,7 +133,7 @@ def team_colors(team)
   game_hash.each do |team, collect|
     binding.pry
     collect[:team_name].each do |player|
-  end
+    end
   end
 end
 
