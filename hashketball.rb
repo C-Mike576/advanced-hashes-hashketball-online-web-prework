@@ -108,8 +108,8 @@ the_game
 
 end
 def num_points_scored
+  binding.pry
   the_game.each do |team, collect|
-    binding.pry
   end
 end
 
