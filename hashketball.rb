@@ -3,7 +3,7 @@ require 'pry'
 
 def game_hash
 the_game = {
-  {:home => {
+  :home => {
     :team_name => "",
     :colors => [], 
     :players => [
@@ -15,8 +15,8 @@ the_game = {
         {:assists => ""},
         {:steals => ""},
         {:blocks => ""},
-        {:slam_dunks =>""}]}}, 
-  {:away => {
+        {:slam_dunks =>""}]}, 
+  :away => {
     :team_name => "", 
     :colors => [], 
     :players => [
@@ -28,7 +28,7 @@ the_game = {
       {:assists => ""},
       {:steals => ""},
       {:blocks => ""},
-      {:slam_dunks =>""}]}}}
+      {:slam_dunks =>""}]}}
 
 the_game
 end
