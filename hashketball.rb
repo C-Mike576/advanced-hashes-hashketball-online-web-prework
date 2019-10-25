@@ -162,11 +162,8 @@ end
 def player_stats(name)
   game_hash.each do |team_side, collect|
     collect[:players].each do |player|
-      player.each do |key, value|
-        binding.pry
-        if value[:player_name] == name
+      if player[:player_name] == name
           return player
-        end
       end
     end
   end
