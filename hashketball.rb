@@ -164,7 +164,7 @@ def player_stats(name)
     collect[:players].each do |player|
       if player[:player_name] == name
         #binding.pry
-          return player.delete(:player_name)
+          return player.ex(:player_name)
       end
     end
   end
