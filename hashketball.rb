@@ -181,7 +181,13 @@ def big_shoe_rebounds
       end
     end
   end
-  
+  game_hash.each do |team_side, collect|
+    collect[:players].each do |player|
+      if big_shoe == player[:shoe]
+        return player[:rebounds]
+      end
+    end
+  end
 end
 
 
