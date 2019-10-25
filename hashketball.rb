@@ -107,7 +107,7 @@ the_game
 
 
 end
-def num_points_scored(name)
+def num_points_scored
   the_game.each do |team, collect|
     binding.pry
   end
