@@ -27,7 +27,7 @@ the_game = {:home => {
          {:assists => ""},
          {:steals => ""},
          {:blocks => ""},
-         {:slam_dunks =>""}]}}}}
+         {:slam_dunks =>""}]}}}
 binding.pry
 the_game
 end
