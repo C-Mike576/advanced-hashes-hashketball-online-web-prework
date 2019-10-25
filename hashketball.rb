@@ -183,12 +183,12 @@ def big_shoe_rebounds
   end
   game_hash.each do |team_side, collect|
     collect[:players].each do |player|
+      binding.pry
       if big_shoe == player[:shoe]
         return player[:rebounds]
       end
     end
   end
-  binding.pry
 end
 
 
