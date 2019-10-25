@@ -164,7 +164,7 @@ def player_stats(name)
     collect[:players].each do |player|
       if player[:player_name] == name
         #binding.pry
-          return player.tap {|hs| hs.delete(:player_name)}
+          return player.tap {|ps| ps.delete(:player_name)}
       end
     end
   end
@@ -173,11 +173,11 @@ end
 def big_shoe_rebounds
   #retuns the number of rebounds of the player with the biggest
   #shoe size
-  
-  
-  
-  
-  
+  game_hash.each do |team_side, collect|
+    collect[:players].each do |player|
+    binding.pry
+    end
+  end
 end
 
 
