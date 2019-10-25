@@ -104,7 +104,7 @@ game_hash = {
 game_hash
 end
 def num_points_scored(name)
-  game_hash.each do |team, collect|
+  game_hash.each do |team_side, collect|
     collect[:players].each do |player|
       player.each do |key, value|
         #binding.pry
@@ -117,7 +117,7 @@ def num_points_scored(name)
 end
 
 def shoe_size(name)
-  game_hash.each do |team, collect|
+  game_hash.each do |team_side, collect|
     collect[:players].each do |player|
       player.each do |key, value|
         #binding.pry
@@ -139,6 +139,9 @@ def team_colors(team)
 end
 
 def team_names
+  names_array = []
+  game_hash.each do |team_side, collect
+    
 end
 
 
