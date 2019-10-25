@@ -152,7 +152,7 @@ def player_numbers(team)
     if collect[:team_name] == team
       binding.pry
       collect[:players].each do |player|
-        numbers_array << collect[:number]
+        numbers_array << player[:number]
       end
     end
   end
