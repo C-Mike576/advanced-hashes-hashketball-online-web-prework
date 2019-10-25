@@ -134,6 +134,7 @@ def team_colors(team)
     binding.pry
     collect[:team_name].each do |player|
   end
+  end
 end
 
 
