@@ -29,7 +29,6 @@ the_game = {
       {:steals => ""},
       {:blocks => ""},
       {:slam_dunks =>""}]}}
-
 the_game
 end
 
