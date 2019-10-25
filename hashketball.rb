@@ -4,8 +4,8 @@ require 'pry'
 def game_hash
 the_game = {
   {:home => {
-    :team_name => {},
-    :colors => {}, 
+    :team_name => "",
+    :colors => [], 
     :players => [
         {:player_name => ""},
         {:number => ""},
@@ -17,8 +17,8 @@ the_game = {
         {:blocks => ""},
         {:slam_dunks =>""}]}}, 
   {:away => {
-    :team_name => {}, 
-    :colors => {}, 
+    :team_name => "", 
+    :colors => [], 
     :players => [
       {:player_name => ""},
       {:number => ""},
